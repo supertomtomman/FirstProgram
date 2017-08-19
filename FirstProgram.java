@@ -15,6 +15,7 @@ public class FirstProgram {
         System.out.print("\n\nAverage: " + ex1point1F(myArray));
         System.out.print("\n\nMinimum: " + ex1point1H(myArray));
         System.out.print("\n\nMaximum: " + ex1point1H_MAX(myArray));
+        // test
     }
 
     public static int ex1point1A(int[] myArray) {

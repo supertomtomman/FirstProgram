@@ -7,7 +7,7 @@ public class FirstProgram1 {
         System.out.print("TEST");
         System.out.print("\nHello World");
         System.out.print("\nAfter Git set up");
-
+        System.out.print("\nAfter Git set up 2 test2");
     }
 
 }

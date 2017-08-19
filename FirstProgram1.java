@@ -6,6 +6,7 @@ public class FirstProgram1 {
     public static void main(String[] args) {
         System.out.print("TEST");
         System.out.print("\nHello World");
+        System.out.print("\nAfter Git set up");
 
     }
 

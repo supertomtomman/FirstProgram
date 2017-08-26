@@ -1,4 +1,5 @@
 package Day2_OO;
+import OtherPac.Order;
 
 public class Article {
 
@@ -12,6 +13,7 @@ public class Article {
         this.name = name;
         this.price = price;
         this.descripton = desc;
+        Order order = new Order();
 
     }
 
@@ -22,5 +24,14 @@ public class Article {
         System.out.println(price);
         System.out.println(descripton);
     }
+    private void printChange(){
 
+        System.out.println("Zmieniono wartość pola");
+    }
+
+    public void setDescripton(String descripton) {
+        this.descripton = descripton;
+        printChange();
+
+    }
 }

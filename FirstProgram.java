@@ -1,3 +1,7 @@
+import Day2_OO.Article;
+import OtherPac.Accumul;
+import OtherPac.Line;
+
 import java.util.Scanner;
 
 /**
@@ -27,7 +31,20 @@ public class FirstProgram {
         System.out.println("\n" + zadanie7Day2(tab, 22) + "\n");
 
         // zadanie 8
-        zadanie8_Calculator();
+        // zadanie8_Calculator();
+        // OO
+        Article a = new Article(1, "watter bottle", 99, "Pure clean mineral watter");
+        a.printInfo();
+        a.setDescripton("Nowy opis");
+
+
+        //Order order = new Order();
+
+        System.out.println(Accumul.accum("abcd"));
+        System.out.println(Accumul.accum("RqaEzty"));
+        System.out.println(Accumul.accum("cwAt"));
+        System.out.println(Line.Tickets(new int[]{25, 25, 50}));
+        System.out.println(Line.Tickets(new int[]{25, 25, 25, 25, 50, 100, 50}));
     }
 
     public static int ex1point1A(int[] myArray) {

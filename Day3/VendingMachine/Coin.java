@@ -11,7 +11,7 @@ public enum Coin {
 
     private int value;
 
-    Coin(int value) {
+     Coin(int value) {
         this.value = value;
     }
 

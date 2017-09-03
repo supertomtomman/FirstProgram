@@ -1,12 +1,15 @@
 package Day4;
 
 import java.util.Arrays;
+import java.util.ListIterator;
 
 public class Solution {
     public static void main(String[] args) {
         int[] c = {10, 2, 3, 3};
         System.out.println("Total time: " + solveSuperMarketQueue(c, 2));
     }
+
+
 
 
     public static int solveSuperMarketQueue(int[] customers, int n) {
